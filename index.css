@@ -1,0 +1,779 @@
+/* ubisoft mainpage */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --nav bar (START)-- */
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+}
+
+/* --left div-- */
+.left-div-nav {
+    margin-left: 50px;
+    height: 100%;
+}
+
+.left-div-nav img {
+    display: inline-block;
+    color: white;
+    height: 100%;
+    padding-left: 10px;
+}
+
+/* --center div  */
+
+.nav-tems ul {
+    padding-left: 50px;
+    display: flex;
+}
+
+.nav-tems ul li {
+    margin-left: 70px;
+}
+
+.nav-tems ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-tems ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 16px 30px;
+}
+
+/* --Right div-- */
+
+.right-div-nav {
+    margin-right: 60px;
+    display: flex;
+    color: white;
+    padding-right: 40px;
+}
+
+
+/* --nav bar (END)-- */
+
+/* section 1---START--*/
+
+.section-1 {
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/ac-valhalla-dawn-of-ragnarok-cover-art.jpg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section-1 h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 55px;
+    line-height: 40px;
+    text-align: center;
+    align-content: center;
+
+}
+
+.section-1 p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    justify-self: center;
+    padding: 10px 140px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.button button {
+    text-align: center;
+    margin-left: 30px;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(11, 143, 143);
+    color: white;
+}
+
+.button button:hover {
+    background-color: rgb(144, 200, 200);
+}
+
+.img {
+    display: flex;
+    align-self: center;
+    height: 200px;
+
+}
+
+/* section 1--END */
+
+/* section--1 below div (START) */
+
+.sec-1-below-div {
+
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1-below-div h1 {
+    font-family: sans-serif;
+}
+
+/* section--1 below div (END) */
+
+
+
+/* section 2--START */
+
+.section-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-2 div {
+    margin-left: 30px;
+
+}
+
+.section-2 div img {
+    height: 270px;
+    width: 220px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.section-2 div a {
+
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.section-2 div a:hover {
+    text-decoration: underline;
+}
+
+.sec2-icon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.icon-1 {
+    color: grey;
+}
+
+.icon-2 {
+    color: grey;
+}
+
+/* section 2--END */
+
+/* view all games button (Start) */
+
+.view-all-games {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+}
+
+.view-all-games button {
+    border: none;
+    border-radius: 40px;
+    padding: 10px 60px;
+    height: 55px;
+    background-color: rgb(211, 3, 142);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* view all games button (End) */
+
+/* section-3 (START) */
+
+.section-3 {
+    background-color: rgba(195, 189, 189, 0.162);
+    width: 100%;
+    height: 1000px;
+
+}
+
+/* sec3-TITLE strt */
+.sec3-title {
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sec3-title h2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+/* sec3-TITLE END */
+
+/* sec3-SUBTITLE strt */
+
+.sec3-subtitle ul {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3-subtitle ul li {
+    margin-left: 70px;
+    list-style-type: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.sec3-subtitle ul li a {
+    color: rgb(206, 52, 152);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sec3-subtitle ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* sec3-SUBTITLE END */
+
+/* images area (START) */
+
+.images-div {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-left-div {
+    width: 730px;
+    height: 720px;
+}
+
+.img-lefttop-div {
+    height: 480px;
+
+}
+
+.img-lefttop-div img {
+
+    height: 420px;
+    cursor: pointer;
+}
+
+.img-lefttop-div p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.img-lefttop-div h3 {
+    padding-bottom: 7px;
+    font-family: sans-serif;
+}
+
+.img-lefttop-div h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-leftbottom-div {
+    display: flex
+}
+
+.img-leftbottom-div img {
+    width: 350px;
+    height: 220px;
+    padding-top: 20px;
+}
+
+.img-leftbottom-div p {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 7px;
+    color: grey;
+
+}
+
+.img-leftbottom-div h3 {
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: -80px;
+    margin-top: 45px;
+    width: 350px;
+
+}
+
+.img-right-div {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.img-right-div1 {
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.img-right-div1 img {
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+
+.img-right-div1 p {
+    margin-left: 30px;
+    width: 100px;
+    padding-bottom: 5px;
+    color: grey;
+}
+
+.img-right-div1 h3 {
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: -100px;
+    margin-top: 20px;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+.img-right-div1 h3:hover {
+    text-decoration: underline;
+}
+
+.img-right-div2 {
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.img-right-div2 img {
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+
+.img-right-div2 p {
+    margin-left: 30px;
+    width: 100px;
+    padding-bottom: 5px;
+    color: grey;
+}
+
+.img-right-div2 h3 {
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: -100px;
+    margin-top: 20px;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+.img-right-div2 h3:hover {
+    text-decoration: underline;
+}
+
+.img-right-div3 {
+
+    display: flex;
+}
+
+.img-right-div3 img {
+    display: inline;
+    height: 200px;
+    width: 350px;
+}
+
+.img-right-div3 p {
+    margin-left: 30px;
+    width: 100px;
+    padding-bottom: 5px;
+    color: grey;
+}
+
+.img-right-div3 h3 {
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: -100px;
+    margin-top: 20px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+.img-right-div3 h3:hover {
+    text-decoration: underline;
+}
+
+/* images area (END) */
+/* alll news button START */
+.all-news-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-news-btn button {
+    color: white;
+    background-color: rgb(208, 33, 91);
+    height: 50px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.all-news-btn button:hover {
+    color: rgb(208, 33, 91);
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(208, 33, 91);
+
+}
+
+/* alll news button END */
+
+/* section-3 (END) */
+
+
+/* section-4 above div */
+
+.sec4-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec4-title h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+/* section-4 (START) */
+
+.sec-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 90px;
+}
+
+.sec-4-left {
+    background-image: url(https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/15bqGfkr2GajEz4laFFp0K/ede2b45fbeb4cdc6b007edbbc835df16/ubicom-store-promo-ridersrepublic-buy.jpg);
+    background-size: cover;
+    margin-left: 40px;
+    width: 450px;
+    height: 500px;
+    background-position-x: center
+}
+
+.sec-4-left h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec-4-left h2:hover {
+    text-decoration: underline;
+}
+
+
+
+.sec-4-center {
+    background-image: url(https://img.game-news24.com/2022/02/Assassins-The-Dawn-Of-Ragnarok-is-now-in-a-deep-dive-mode.jpeg);
+    background-size: cover;
+    margin-left: 40px;
+    width: 450px;
+    height: 500px;
+    background-position-x: center
+}
+
+.sec-4-center h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+.sec-4-center h2:hover {
+    text-decoration: underline;
+}
+
+.sec-4-right {
+    background-image: url(https://freegametips.com/wp-content/uploads/2020/10/Assassins-Creed-Valhalla-and-Far-Cry-6-confirm-their-improvements-1024x576.jpg);
+    background-size: cover;
+    margin-left: 40px;
+    width: 450px;
+    height: 500px;
+    background-position-x: center
+}
+
+.sec-4-right h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec-4-right h2:hover {
+    text-decoration: underline;
+}
+
+/* section-4 (END) */
+
+/* section-5 (START) */
+
+.sec5 {
+    width: 100%;
+    background-image: url(https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4eNBmgRKHPXoVulFNHTPim/954cef67dc8fb69f72b44540623422be/MPP_SocialPresence_desktop-V3.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position-x: center;
+    justify-content: center;
+}
+
+.sec5-div1 {
+    display: flex;
+    justify-content: center;
+    padding: 65px 100px 40px 100px;
+
+}
+
+.sec5-div1 h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sec5-div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec5-div2 p {
+    text-align: center;
+    padding: 0px 100px 20px 100px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 990px;
+    line-height: 40px;
+}
+
+.sec5-div3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sec5-div3 button {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    background-color: rgb(208, 33, 91);
+    color: white;
+}
+
+.sec5-div3 button:hover {
+    cursor: pointer;
+    color: rgb(208, 33, 91);
+    background-color: white;
+    border: 2px solid rgb(208, 33, 91);
+}
+
+/* section-5 (END) */
+
+/* section-6  */
+.sec6-title {
+
+    display: flex;
+    justify-content: center;
+}
+
+.sec6-title h2 {
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+/* section-6 (START) */
+
+.sec6 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sec6-div1 {
+    display: flex;
+    margin-left: 70px;
+    background-image: url(https://i.gadgets360cdn.com/large/ubisoft_star_wars_1610602009239.jpg);
+    width: 440px;
+    height: 500px;
+    background-position-x: center;
+    border-radius: 10px;
+    position: absolute;
+    background-size: cover;
+}
+
+.sec6-div1a {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.442);
+    margin-top: 380px;
+    border-radius: 10px;
+}
+
+.sec6-div1a h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 20px 0px 20px;
+    font-size: large;
+    width: 380px;
+    font-family: sans-serif;
+}
+
+.sec6-div1a h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sec6-div2 {
+    display: flex;
+    margin-left: 470px;
+    background-image: url(https://www.playstationlifestyle.net/assets/uploads/2020/10/ubisoft-connect-1280x720.jpg);
+    width: 440px;
+    height: 500px;
+    background-position-x: center;
+    border-radius: 10px;
+    position: absolute;
+    background-size: cover;
+}
+
+.sec6-div2a {
+
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.442);
+    margin-top: 380px;
+    border-radius: 10px;
+}
+
+.sec6-div2a h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 20px 0px 20px;
+    font-size: large;
+    width: 380px;
+    font-family: sans-serif;
+}
+
+.sec6-div2a h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sec6-div3 {
+    margin-left: 470px;
+    display: flex;
+    background-image: url(data:image/jpeg;base64,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);
+    width: 440px;
+    height: 500px;
+    background-position-x: center;
+    border-radius: 10px;
+    position: absolute;
+    background-size: cover;
+}
+
+.sec6-div3a {
+
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.978);
+    margin-top: 380px;
+    border-radius: 10px;
+}
+
+.sec6-div3a h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 20px 0px 20px;
+    font-size: large;
+    width: 380px;
+    font-family: sans-serif;
+}
+
+.sec6-div3a h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* section-6 (END) */
